@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="523.0dp"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Profile"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="109.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0C635E" />
+        <ImageView
+            android:src="@drawable/profileicon"
+            android:layout_width="107.0dp"
+            android:layout_height="58.0dp"
+            android:id="@+id/imageView1" />
+        <TextView
+            android:text="Edit Profile Picture"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="#0C635E" />
+        <TextView
+            android:text="Name :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="108.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#0C635E" />
+        <TextView
+            android:text="Ahmed Arafat"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="198.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textColor="#171D72"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="#A3C9AE" />
+        <TextView
+            android:text="Password :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="112.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#0C635E" />
+        <TextView
+            android:text="***********"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="198.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="#171D72"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:background="#A3C9AE" />
+        <Button
+            android:text="Edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/button1"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="60dp"
+            android:background="#A3C9AE"
+            android:textColor="#171D72" />
+    </LinearLayout>
+</LinearLayout>

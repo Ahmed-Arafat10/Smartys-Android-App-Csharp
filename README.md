@@ -1,0 +1,2 @@
+# Smartys Android App.
+ 

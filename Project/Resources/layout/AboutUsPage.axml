@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@drawable/aboutus">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="736.0dp"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="719.0dp"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="FaceBook"
+                android:id="@+id/fbbtn"
+                android:background="#A3C9AE"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="60dp"
+                android:textColor="#171D72" />
+            <Button
+                android:text="WebSite"
+                android:id="@+id/websitebtn"
+                android:background="#A3C9AE"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="#171D72" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
